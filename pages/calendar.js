@@ -26,6 +26,7 @@ export default function Home() {
             <div>
                 <DatePicker
                     dateFormat="dd-MM-yyyy"
+                    placeholderText={"DD-MM-YYYY"}
                     selected={startDate}
                     onChange={date => setStartDate(date)} />
                 <button onClick={getCalendarData}>React Calendar</button>
